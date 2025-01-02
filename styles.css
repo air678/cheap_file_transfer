@@ -1,0 +1,32 @@
+*{
+    /* background-color: ; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+th, td {
+    border-left: 2px solid;
+    border-right: 2px solid;
+    text-align: center;
+    padding: 10px;
+}
+table{
+    width: 80%;
+    border: 2px solid;
+    margin-left: 10%;
+}
+h1, h2, h3, p{
+    text-align: center;
+}
+th{
+    border-bottom: 2px solid;
+    background-color: black;
+    color: white;
+}
+td{
+    color: black;
+    background-color: grey;
+}
+td:hover{background-color: white}
+th:hover{
+    background-color: white;
+    color: black;
+}
