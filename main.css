@@ -1,0 +1,155 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background: linear-gradient(135deg, #000, #222, #444);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    padding: 40px 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    animation: glow 2s infinite alternate;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #bbb;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 12px 25px;
+    border-radius: 5px;
+    color: white;
+    background-color: #444;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover {
+    background-color: #555;
+    transform: scale(1.1);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Cyber Banner */
+.cyber-banner {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    animation: pulse 3s infinite;
+}
+
+.cyber-banner p {
+    color: #ccc;
+    font-style: italic;
+}
+
+/* Interactive Section */
+.interactive-section {
+    margin: 30px;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.fact-box {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.fact-box p {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-bottom: 15px;
+}
+
+.fact-box button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.fact-box button:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #222;
+    padding: 10px;
+    font-size: 0.9rem;
+    color: #aaa;
+    border-top: 1px solid #444;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes glow {
+    to {
+        text-shadow: 0px 0px 5px #fff, 0px 0px 5px #ccc;
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        background: rgba(255, 255, 255, 0.1);
+    }
+    50% {
+        background: rgba(255, 255, 255, 0.2);
+    }
+}
