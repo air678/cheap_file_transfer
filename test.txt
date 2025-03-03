@@ -1,0 +1,1 @@
+sendemail -t everything.rind964@passinbox.com -u “Alert” -m “You are hacked”  -s smtp-sendkit.sarbacane.com:587 -xu 67c544ea5d64931e2f219748-xp ilxa8qxiwgs73jxtzspoipnfsmozqoenma6eomh6r0o -f lomogoh875@apklamp.com -o message-header="From: karnavati university <202307030002@karnavatiuniversity.edu.in>" -v
