@@ -2,4 +2,4 @@ sendemail -t everything.rind964@passinbox.com -u “Alert” -m “You are hacke
 
 
 
-33636hogj10jr0m07vzsre35znsjdf9av56tgxt88bbc
+sendemail -t 202307020025@karnavatiuniversity.edu.in-u “NOTICE” -m “You have been suspended for 1 day due to sitting in another class”  -s smtp-sendkit.sarbacane.com:587 -xu 67c732830a6d342b225918ae -xp 277zzxkm3li1l4mn8epr4ge55vyr5urqbrqgvhq8uc32 -f fipese5859@calmpros.com -o message-header="From: Dean UIT <dean.uit@karnavatiuniversity.edu.in>" -v
