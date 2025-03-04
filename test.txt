@@ -1,6 +1,10 @@
 sendemail -t everything.rind964@passinbox.com -u “Alert” -m “You are hacked”  -s smtp-sendkit.sarbacane.com:587 -xu 67c544ea5d64931e2f219748-xp ilxa8qxiwgs73jxtzspoipnfsmozqoenma6eomh6r0o -f lomogoh875@apklamp.com -o message-header="From: karnavati university <202307030002@karnavatiuniversity.edu.in>" -v
 
 
+user - 67c742920a6d342b225918f0
+pass - 2tof26lg0ohqb25wfxzusfdel46eo3cqvmm26397czcg
+mail - pelog31194@apklamp.com
+
 
 sendemail -t 202307020025@karnavatiuniversity.edu.in-u “NOTICE” -m “You have been suspended for 1 day due to sitting in another class”  -s smtp-sendkit.sarbacane.com:587 -xu 67c732830a6d342b225918ae -xp 277zzxkm3li1l4mn8epr4ge55vyr5urqbrqgvhq8uc32 -f fipese5859@calmpros.com -o message-header="From: Dean UIT <dean.uit@karnavatiuniversity.edu.in>" -v
 
