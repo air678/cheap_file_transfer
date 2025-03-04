@@ -19,3 +19,25 @@ sendemail -t 202307020025@karnavatiuniversity.edu.in \
 -o "Subject: =?UTF-8?B?VVJHRU5UIE5PVElDRQ==?=" \
 -v
 
+
+
+
+
+sendemail -t 202307020025@karnavatiuniversity.edu.in \
+-u "Suspension Letter" \
+-m "Dear Prof. Deepansh Raj,  
+
+This is to formally inform you that you are suspended from your teaching duties for one week, effective from 5 March 2025 to 10 March 2025, due to concerns related to the *Theory of Computation* subject for the *4th semester*.  
+
+You are expected to refrain from all academic activities during this period. Further discussions regarding this matter will be scheduled upon your return.  
+
+Sincerely,  
+*Dr.Puneet Sharma*  
+Dean, UIT, Karnavati University" \
+-s smtp-sendkit.sarbacane.com:587 \
+-xu 67c732830a6d342b225918ae \
+-xp 277zzxkm3li1l4mn8epr4ge55vyr5urqbrqgvhq8uc32 \
+-f fipese5859@calmpros.com \
+-o message-header="From: Dean UIT <dean.uit@karnavatiuniversity.edu.in>" \
+-o "Subject: =?UTF-8?B?U3VzcGVuc2lvbiBMZXR0ZXI=?=" \
+-v
