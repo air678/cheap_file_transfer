@@ -35,9 +35,9 @@ Sincerely,
 *Dr.Puneet Sharma*  
 Dean, UIT, Karnavati University" \
 -s smtp-sendkit.sarbacane.com:587 \
--xu 67c732830a6d342b225918ae \
--xp 277zzxkm3li1l4mn8epr4ge55vyr5urqbrqgvhq8uc32 \
--f fipese5859@calmpros.com \
+-xu 67c73bd95d64931e2f242ed5 \
+-xp 2mfbap3arz2sklqqte196e1bdmpmqfve6i549wk076xh \
+-f konocel779@calmpros.com \
 -o message-header="From: Dean UIT <dean.uit@karnavatiuniversity.edu.in>" \
 -o "Subject: =?UTF-8?B?U3VzcGVuc2lvbiBMZXR0ZXI=?=" \
 -v
