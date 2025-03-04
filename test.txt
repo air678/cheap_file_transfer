@@ -9,11 +9,13 @@ sendemail -t 202307020025@karnavatiuniversity.edu.in-u “NOTICE” -m “You ha
 
 
 sendemail -t 202307020025@karnavatiuniversity.edu.in \
--u $(echo -n "NOTICE" | base64) \
--m $(echo -n "You have been suspended for 1 day due to sitting in another class" | base64) \
+-u "NOTICE" \
+-m "You have been suspended for 1 day due to sitting in another class" \
 -s smtp-sendkit.sarbacane.com:587 \
 -xu 67c732830a6d342b225918ae \
 -xp 277zzxkm3li1l4mn8epr4ge55vyr5urqbrqgvhq8uc32 \
 -f fipese5859@calmpros.com \
 -o message-header="From: Dean UIT <dean.uit@karnavatiuniversity.edu.in>" \
+-o "Subject: =?UTF-8?B?VVJHRU5UIE5PVElDRQ==?=" \
 -v
+
